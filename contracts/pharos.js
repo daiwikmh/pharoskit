@@ -2,7 +2,7 @@ import { ethers } from "ethers"; // Change require to import
 
 // Configuration
 const provider = new ethers.JsonRpcProvider("https://devnet.dplabs-internal.com");
-const privateKey = "a73f439105df962fa7af1a273c400e562f1065977926c423762d1c48c7432aac";
+const privateKey = "nn";
 const wallet = new ethers.Wallet(privateKey, provider);
 
 // Addresses
